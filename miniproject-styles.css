@@ -1,0 +1,44 @@
+html, body {
+    /* These dudes were added in order to take up the entire space of the browser */
+    height: 100%;
+    margin: 0;
+}
+
+.big-container {
+    /* I'll try using flexbox to arrange the individual elements of the page */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.header {
+    display: flex;
+    background-color: red;
+    height: 20px;
+}
+
+/* It looked like Google.com had these two elements with the same style settings */
+#header-about, #header-store {
+    margin: 10px 0 0 15px;
+}
+
+.main-content {
+    background-color: green;
+}
+
+#google-logo {
+    margin: 15px 0;
+    background-color: yellow;
+}
+
+#search-bar {
+    margin: 15px 0;
+    background-color: rgba(255, 255, 0, 0.452);
+}
+
+.footer {
+    background-color: blue;
+    height: 20px;
+}
